@@ -1,0 +1,17 @@
+### Home Endpoint
+GET http://127.0.0.1:5000/
+
+### Greeting Endpoint
+GET http://127.0.0.1:5000/greet/Alice
+
+### Addition Endpoint with Query Parameters
+GET http://127.0.0.1:5000/add?num1=5&num2=3
+
+### POST Endpoint with JSON Body
+POST http://127.0.0.1:5000/postdata
+Content-Type: application/json
+
+{
+    "key": "value",
+    "example": "data"
+}
